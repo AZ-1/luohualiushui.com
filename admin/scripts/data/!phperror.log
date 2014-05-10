@@ -1,0 +1,7 @@
+[23-Oct-2013 16:22:57 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118
+[23-Oct-2013 16:23:48 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118
+[23-Oct-2013 16:23:52 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118
+[23-Oct-2013 16:24:11 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118
+[23-Oct-2013 16:24:41 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118
+[23-Oct-2013 16:24:59 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118
+[23-Oct-2013 16:25:14 Asia/Shanghai] PHP Notice:  Undefined index: REQUEST_METHOD in /home/service/php-debug-tool/lib/debug.php on line 118

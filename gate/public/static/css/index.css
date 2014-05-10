@@ -1,0 +1,49 @@
+body{overflow-x:hidden;}
+.adType1{bottom:20px;left:300px;position:absolute;z-index:300;}
+.adType1 a{background:#666;-webkit-border-radius:4px;border-radius:4px;cursor:pointer;display:inline-block;margin-right:6px;height:10px;width:10px;}
+.adType1 a.current{background:#FFF;}
+.index_banner{min-width:1180px;height:357px;background:#fed8dd;}
+.wlc_bnr{width:1439px;overflow:hidden;height:360px;position:relative;margin:0 auto;}
+.boxImg{overflow:hidden;}
+.boxImg{width:1180px;height:357px;position:absolute;top:0;z-index:10;}
+.banner_panel{width:1180px;margin:0 auto;position:relative;}
+.ternLeft{background:url(/static/images/left.gif) no-repeat;width:45px;height:85px;float:left;z-index:2000;}
+.ternRight{background:url(/static/images/right.gif) no-repeat;width:45px;height:85px;float:right;z-index:2000;}
+
+
+
+.index_nav{margin-top:30px;width:100%;}
+.index_nav a{ float:left;width:196px;font-size:18px;height:30px; line-height:30px;border-bottom:solid 2px #cccccc;text-align:center;}
+.index_nav .active{color:#ed5565;border-bottom:solid 2px #ed5565;}
+.article_list{float:left;width:550px;overflow:hidden;background:#fff;padding:30px 15px 25px 15px;margin-top:5px;border-bottom:solid 2px #e3e4e8;overflow:hidden;margin-right:20px;margin-bottom:10px;}
+.article_list .user_info{width:72px;margin-left:15px;float:left;text-align:center;}
+.article_list .user_ident{width:52px;padding-left:20px;height:20px;background:url(../images/bg/daren_bg.gif) no-repeat;margin-top:7px;color:#fff;line-height:20px;}
+.article_list .user_name{margin-top:7px;font-size:14px;width:72px;}
+.article_list .user_avatar{width:62px;height:62px;overflow:hidden;border-radius:50%;border:solid 5px #cccccc;behavior:url("/static/PIE.htc");}
+.article_list .article_info{width:440px;height:240px;float:right;overflow:hidden;}
+.article_list .article_title{font-size:18px;}
+.article_list .article_tag{color:#ed5565;}
+.article_list .article_desc{margin-top:20px;line-height:20px;}
+.article_list .article_pic{margin-top:20px;overflow:hidden;}
+.article_list .article_pic img{ float:left;margin-right:10px;display:inline;}
+.daren_title{font-size:30px;margin-top:40px;}
+.daren_title a{font-size:14px;color:#3bafda;padding-left:20px;}
+.daren_list{background-color:#fff;width:280px;height:170px;margin-top:20px;padding-top:10px;float:left;overflow:hidden;margin-right:20px;}
+.daren_list .user_info{height:120px;width:100%;}
+.daren_list .user_avatar{width:100px;height:100px;overflow:hidden;border-radius:50%;border:solid 5px #cccccc;float:left;margin-left:35px;display:inline;}
+.daren_list .user_desc{background-color:#e6e6e6;overflow:hidden;height:50px;line-height:50px;font-size:14px;padding-left:30px;padding-right:30px;}
+.daren_list .user_ident{width:52px;padding-left:20px;height:20px;background:url(../images/bg/daren_bg.gif) no-repeat;margin-top:7px;color:#fff;line-height:20px;float:left;margin-left:20px;display:inline;margin-top:10px;}
+.daren_list .user_name{float:left;margin-left:20px;display:inline;margin-top:30px;}
+.topic_list{width:280px;height:300px;background:#fff;border-bottom:solid 2px #ccc;margin-top:20px;float:left;margin-right:20px;display:inline;}
+.topic_list .topic_title{font-size:18px;color:#ed5565;padding-left:15px;height:25px;padding-top:15px;}
+.topic_list .topic_desc{padding-left:15px;height:40px;line-height:40px;}
+.topic_list .topic_follow{height:60px;border-top:solid 1px #e6e6e6;}
+.topic_follow p{float:left;}
+.topic_follow .flow_1{color:#c0c0c0;width:55px;border-right:solid 1px #e6e6e6;overflow:hidden;height:60px;padding-left:20px;}
+.topic_follow .flow_1 span{display:block;width:75px;padding-top:12px;font-size:16px;color:#333;}
+.topic_follow .flow_2{color:#c0c0c0;width:55px;overflow:hidden;height:60px;padding-left:20px;}
+.topic_follow .flow_2 span{display:block;width:75px;padding-top:12px;color:#333;font-size:16px;}
+.topic_follow .flow_3{padding-top:15px;padding-left:25px;}
+
+.article_image{width:133px;height:112px;float:left;overflow:hidden;margin-right:10px;margin-top:20px;background:#eee;text-align:center}
+.article_image img{width:133px; height:auto}

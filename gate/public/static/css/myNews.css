@@ -1,0 +1,17 @@
+.userGrade{margin-left:10px;margin-top:10px;}
+.myFansInfoName{margin-right:0px;}
+.myFansInfoName a{color:#3bafda;}
+.newsTitle{margin-top:10px;margin-left:10px;float:left;}
+.newsTitle a{color:red;}
+.newsTitleRed{color:#ed5565;}
+.newsTitleBlue{color:#3dafba;}
+.userNameGrade{float:left;}
+.myFansInfoContent{width:100%;margin-left:20px;}
+.myNewsTime{color:#ccc;float:left;margin-top:20px;margin-left:20px;margin-bottom:10px;}
+.myNewsDel{float:right;margin-top:20px;margin-bottom:10px;}
+.myNewsDel a{color:#3dafba;margin-right:20px;}
+.comment_replay .comment_mes{line-height:24px;height:23px;width:75%;outline:medium none;border:solid 1px #c0c0c0;margin:0 20px 10px; }
+.comment_replay .send_mes{float: right;margin: 5px 20px 5px;}
+.comment_replay .send_mes a span{color:rgb(61,175,186);}
+.comment_replay .result{margin:5px 20px;color:red;display:block;}
+.comment_replay .comment_count{float:right;margin:5px 5px;}

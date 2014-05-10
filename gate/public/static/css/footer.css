@@ -1,0 +1,17 @@
+/*footer*/
+.footer{width:100%;height:240px;background:#e1e4e9;overflow:hidden;}
+.footerContent{width:1260px;margin:0 auto;overflow:hidden;}
+.copyright{width:300px;height:240px;float:left;}
+.copyRightContent{margin-left:43px;line-height:25px;}
+#salesHotline{margin-top:70px;font-size:12px;}
+#phone{color:#ed5565;margin-bottom:36px;font-weight:bold;}
+.about,.help,.weibo,.dimensionalCode{float:left;margin-top:50px;line-height:25px;}
+.help{margin-left:78px;width:100px;overflow:hidden;}
+.about{margin-left:24px;width:100px;overflow:hidden;}
+.weibo{margin-left:30px;}
+.aboutHelpTitle{color:#ed5565;font-size:14px;margin-bottom:27px;}
+.weiboImg{float:left;margin:0 70px 10px 20px;}
+.clear{clear:both;}
+.weiboInfo{float:left;margin:0 40px 0px 20px;}
+.codeImg{float:left;margin:0 50px 10px 20px;width:75px;height:75px;overflow:hidden;}
+.codeInfo{float:left;margin:0 40px 0px 20px;}

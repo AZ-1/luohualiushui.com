@@ -1,0 +1,70 @@
+body{margin: 0 auto;background: url(/static/images/vote/bg.jpg);width: 100%;}
+.top{width:100%;height:906px;background:url(/static/images/vote/top.jpg) center center;}
+a{text-decoration: none;color:#000;}
+.content{width:1000px;margin 0 auto;margin-top:47px;position:relative;}
+.contentTop{width: 100%;background: url(/static/images/megagame/guize.gif) no-repeat;width: 999px;height: 308px;}
+.channel{float: left;margin-top: 50px;margin-left: 50px;width:320px;height:220px;}
+.contentTopContent{width: 494px;float: left;height: 30px}
+.userInfo{background: url(/static/images/megagame/info.gif) no-repeat;width: 85px;height: 20px;position: absolute;top: 10px;z-index: 10;font-size: 12px;color: #fff;letter-spacing:2px;padding-top: 3px;padding-left: 2px;}
+.fenxiang{font-size: 18px;}
+.time,.mode span ,.fenxiang{color: #eb4567;}
+.go{font-size:16px;margin-top: 255px; width:170px;height:40px;background: url(/static/images/megagame/go.jpg) no-repeat;float: right;color: #fff;padding-top: 10px;padding-left: 5px;}
+.banner{margin-top: 20px; margin-bottom: 20px; background: url(/static/images/megagame/banner.gif) no-repeat;text-align: center;padding-top: 17px;height: 43px;color: #fff;font-size: 20px;font-weight: bold;}
+.clear{clear: both;}
+/*.works{width: 100%;background-color: #d5c29f;filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5;}*/
+.authorImg{width: 190px;height: 240px;overflow: hidden;}
+.authorImg img{width:190px;height:240px;}
+.workLeft{background: url(/static/images/megagame/lift.jpg) no-repeat;float:left}
+.workRight{background: url(/static/images/megagame/right.jpg) no-repeat;float:right}
+.workLeft , .workRight{margin-top:1278px;width: 32px;height: 53px;}
+.worksInfo{width: 190px;margin-bottom: 10px; background-color: #fff;float: left;margin-left: 8px;position: relative;}
+/*.works{width: 1000px;float: left;}*/
+.authorName,.authorInfo{text-align: center;line-height: 20px;font-size: 12px;}
+.author{background: url(/static/images/megagame/bg_name.jpg);height:40px;overflow:hidden}
+.comment{overflow: hidden; background-color: #000;filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5;width: 67px;height: 25px;float: right;}
+.comment div{color: #fff;margin-top: 3px;margin-left: 1px;overflow: hidden;}
+.renqi{width: 1000px;height:970px;background: url(/static/images/megagame/renqi.gif) no-repeat;margin-top: 50px;}
+
+
+.queen{width: 295px;height: 260px;margin-top: 55px;margin-left: 40px;float: left;}
+*html .queen{margin-left:20px;}
+.queenInfo{width: 80px;margin-top: 30px;float: left;margin-right: 10px;}
+.queenInfoImg{width: 40px;height: 60px;overflow: hidden;margin-left:30px;-webkit-transform-origin: 0 100%;
+                        -moz-transform-origin: 0 100%;
+                        -o-transform-origin: 0 100%;
+                        -ms-transform-origin: 0 100%;
+                        transform-origin: 0 100%;
+                        -webkit-transform:rotate(-22deg);
+                        -moz-transform:rotate(-22deg);
+                        -o-transform:rotate(-22deg);
+                        -ms-transform:rotate(-22deg);
+                        transform:rotate(-22deg);
+                        background: #E5C3B2;}
+.queenInfoImg img{height:60px;}
+.queenInfoName{text-align: center;color: #000;overflow: hidden;}
+.queenInfoLike{background: url(/static/images/megagame/queen.gif) no-repeat;padding-left: 30px;height: 27px;padding-top: 2px;color: #fff;}
+
+.contribute{width: 230px;height: 260px;float: left;margin-top: 55px;margin-left: 40px;float: left;}
+.contributeInfo{margin-right: 35px;}
+
+
+.beatNewArticle{width:325px;float:right;margin-right:30px;margin-top:75px;}
+.search{float:left;}
+.search input{width:230px;border:none;height:25px;margin-right:7px;}
+.articleList ul{list-style-type:none;margin-left:10px;}
+.articleList ul li{margin-top:10px;}
+
+
+
+
+.center{width:100%;height:145px;background:url(/static/images/vote/center.jpg);margin-top:35px;margin-bottom:35px;}
+.footer{margin-top:0px;}
+.like div{margin-left: 5px;margin-top: 4px;color: #fff;width:111px;overflow:hidden}
+.like{overflow: hidden; background: url(/static/images/vote/vote.gif);width: 120px;height: 25px;float: left;}
+.like{cursor:pointer;}
+.isvote{width:24px;height:21px;background:url(/static/images/vote/xin.gif) no-repeat;position:absolute;right:6px;top:7px}
+.share{cursor:pointer;width:117px;height:382px;background:url(/static/images/vote/share.gif) no-repeat;position:fixed;z-index:100;top:240px;right:90px;}
+.bottom{margin-top:20px;width:100%;height:800px;background:url(/static/images/vote/down.jpg) center center;}
+.dialogInfo{width:100%;height:135px;}
+.dialogText{font-size:14px;line-height:20px;padding-top:10px;width:200px;margin:0 auto;text-align:center}
+.button{width:63px;height:32px;border-radius:10%;background-color:#ed5565;margin:30px 20px 20px 107px;border:none;color:#fff;cursor:pointer;}

@@ -1,0 +1,5 @@
+.sear_chl{width:100%;height:35px;line-height:35px;font-size:18px;color:#333333;text-align:center;border-bottom:solid 2px #d9d9d9;margin-top:20px;}
+.sear_chl a{width:120px;float:left;height:33px;color:#333;margin-top:2px;}
+.sear_chl .active{border-bottom:solid 2px #ed5565;z-index:10}
+.search_title{margin-top:30px;font-size:18px;}
+.sear_left_main{width:880px;float:left;overflow:hidden;}

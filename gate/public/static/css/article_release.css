@@ -1,0 +1,18 @@
+.article_release{width:100%;height:130px;}
+.article_content{width:970px;margin:0 auto;}
+.article_zw{float:left;padding-right:10px;font-size:14px;}
+.article_bt{float:left;padding-right:10px;font-size:14px;line-height:40px;margin-top:30px;}
+#myEditor{width:920px;height:760px;float:left;}
+.article_cata_list{padding-left:40px;}
+.article_cata_list p{float:left;margin-right:20px;margin-top:20px;margin-bottom:20px;font-size:14px;}
+.article_in_title input{width:585px;padding-left:15px;height:40px;line-height:40px;font-size:14px;margin-top:30px;border:solid 1px #ccc;}
+.article_release_panel{width:970px;margin:0 auto;color:#666;overflow:hidden;}
+.article_release h2{font-size:24px;font-weight:bold;margin-top:30px;}
+.article_release p{margin-top:30px;font-size:14px;}
+.release_btn{float:right;}
+.release_btn input{width:150px;height:53px;background:url(../images/bg/release_btn.jpg) no-repeat;border:none;font-size:14px;color:#fff;cursor:pointer;}
+.draft_btn{float:right;}
+.draft_btn input{width:150px;height:53px;background:#c0c0c0;font-size:14px;color:#ffffff;cursor:pointer;margin-right:5px;}
+.message_report{float:right;margin-right:10px;height:53px;line-height:53px;}
+.message_report_time{float:right;margin-right:130px;}
+.tip_txt{color:red;display:none}

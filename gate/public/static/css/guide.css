@@ -1,0 +1,45 @@
+.guideWelcome{color:#ed5565;background-color:#fff;padding-top:30px;padding-left:40px;height:50px;font-size:20px;margin-top:20px;border-bottom:solid 2px #ccc;}
+.guideWelcome a{color:#ed5565;}
+.guideAttention{font-size:18px;height:75px;width:100%;margin-top:40px;}
+.guideAttentionTitle{float:left;margin-top:7px;}
+.guideAttentionChange,.guideAttentionComplete{float:right}
+.guideAttentionChange{margin-right:20px;margin-top:7px}
+.guideAttentionComplete{width:150px;height:33px;background-color:#ed5565;color:#fff;text-align:center;padding-top:7px;border-radius:5px;}
+.guideAttentionComplete a{color:#fff;}
+.guideDarenImg{float:left;margin-top:45px;margin-left:28px;}
+.guideDarenContent{float:left;margin-left:20px;margin-top:40px;width:180px;height:87px}
+.guideDarenDesc{margin-top:7px;width:160px;}
+.guideDarenArticle,.guideDarenFans{width:80px;height:60px;text-align:center;padding-top:10px;}
+.guideDarenArticle{border-right:solid 2px #ccc}
+.guideDaren{margin-bottom:20px;float:left;width:380px;height:220px;overflow:hidden;background-color:#fff;}
+.guideDarenInfo{height:220px;width:380px;border-bottom:solid 2px #ccc;float:left}
+.flow_btn{margin-top:10px;margin-right:30px;}
+.flow_topic{margin-top:0px;margin-right:0px;}
+.guideDarenOperating{background-color:#fff;height:50px;margin-top:30px;border-top:solid 2px #ccc;}
+
+.guideDarenArtilceImg{width:260px;margin-left:20px;float:left;}
+.guideDarenArtilceImgLeft{width:98px;overflow:hidden;float:left;}
+.guideDarenArtilceImgSmall{width:98px;height:98px;overflow:hidden;margin-top:8px;margin-bottom:10px;}
+.guideDarenArtilceImgSmall img{width:98px;height:98px;}
+.guideDarenArtilceImgSmallTop{margin-bottom:0px;}
+
+.guideDarenArtilceImgRight{margin-left:5px;margin-top:8px;overflow:hidden;width:150px;float:left;height:205px;}
+.guideDarenArtilceImgRight img{width:150px;height:205px;}
+.guideDarenArtilceImgAll{width:260px;height:205px;margin-top:8px;overflow:hidden;}
+.guideDarenArtilceImgAll img{width:260px;height:205px;}
+
+.float_c{float:none}
+.float_f{float:left}
+.float_r{float:right}
+
+
+.topic_list{width:280px;height:300px;background:#fff;border-bottom:solid 2px #ccc;margin-top:20px;float:left;margin-right:20px;display:inline;}
+.topic_list .topic_title{font-size:18px;color:#ed5565;padding-left:15px;height:25px;padding-top:15px;}
+.topic_list .topic_desc{padding-left:15px;height:40px;line-height:40px;}
+.topic_list .topic_follow{height:60px;border-top:solid 1px #e6e6e6;}
+.topic_follow p{float:left;}
+.topic_follow .flow_1{color:#c0c0c0;width:55px;border-right:solid 1px #e6e6e6;overflow:hidden;height:60px;padding-left:20px;}
+.topic_follow .flow_1 span{display:block;width:75px;padding-top:12px;font-size:16px;color:#333;}
+.topic_follow .flow_2{color:#c0c0c0;width:55px;overflow:hidden;height:60px;padding-left:20px;}
+.topic_follow .flow_2 span{display:block;width:75px;padding-top:12px;color:#333;font-size:16px;}
+.topic_follow .flow_3{padding-top:15px;padding-left:25px;}

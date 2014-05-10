@@ -1,0 +1,12 @@
+.topic_list{width:280px;height:300px;background:#fff;border-bottom:solid 2px #ccc;margin-top:20px;float:left;margin-right:20px;display:inline;}
+.topic_list .topic_title{font-size:18px;color:#ed5565;padding-left:15px;height:25px;padding-top:15px;}
+.topic_list .topic_desc{padding-left:15px;height:40px;line-height:40px;}
+.topic_list .topic_follow{height:60px;border-top:solid 1px #e6e6e6;}
+.topic_follow p{float:left;}
+.topic_follow .flow_1{width:55px;border-right:solid 1px #e6e6e6;color:#c0c0c0;overflow:hidden;height:60px;padding-left:20px;}
+.topic_follow .flow_1 span{display:block;font-size:16px;width:75px;padding-top:12px;color:#333;}
+.topic_follow .flow_2{width:55px;overflow:hidden;height:60px;;color:#c0c0c0;padding-left:20px;}
+.topic_follow .flow_2 span{display:block;font-size:16px;width:75px;padding-top:12px;color:#333;}
+.topic_follow .flow_3{padding-top:12px;padding-left:30px;}
+
+.topic_img{width:280px;height:160px;}

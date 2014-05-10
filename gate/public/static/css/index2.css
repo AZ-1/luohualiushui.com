@@ -1,0 +1,368 @@
+/**********首页***********/
+.adType1 {
+    bottom: 20px;
+    left: 300px;
+    position: absolute;
+    z-index: 300;
+}
+.adType1 a {
+    background: none repeat scroll 0 0 #666666;
+    line-height:100px;
+	border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin-right: 6px;
+    width: 10px;
+	overflow:hidden;
+}
+.adType1 a.current {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.index_banner {
+    background: none repeat scroll 0 0 #FED8DD;
+    height: 357px;
+    min-width: 1180px;
+}
+.wlc_bnr {
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1439px;
+}
+.boxImg {
+	width:1600px;
+	height:360px;
+	position:absolute;
+	left:-120px;
+    overflow: hidden;
+    top: 0;
+    z-index: 10;
+}
+.boxImg ._img{
+	position:absolute;
+	width:4800px;
+	left:0;
+	display:inline-block;
+}
+.banner_panel {
+    margin: 0 auto;
+    position: relative;
+    width: 1180px;
+}
+.ternLeft {
+    background: url("/static/images/left.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 85px;
+    width: 45px;
+    z-index: 2000;
+}
+.ternRight {
+    background: url("/static/images/right.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 85px;
+    width: 45px;
+    z-index: 2000;
+}
+.login, .logined {
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #CCCCCC;
+    float: right;
+    position: absolute;
+    right: 0;
+    width: 470px;
+    z-index: 300;
+}
+.loginIcon {
+    background-color: #EB182C;
+    border-radius: 5px;
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    padding-top: 15px;
+    width: 180px;
+}
+.loginIcon img {
+    float: left;
+    margin: -5px 10px 0;
+}
+.QQLogin {
+    background-color: #0098D6;
+}
+.taobaoLogin {
+    background-color: #FF4400;
+}
+.renrenLogin {
+    background-color: #3365B8;
+}
+.renrenLogin img {
+    margin-top: 2px;
+}
+.taobaoLogin img {
+    margin-top: 0;
+}
+.loginUser {
+    margin: 20px;
+}
+.loginUserImg {
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.loginUserInfo {
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+    width: 250px;
+}
+.loginUserName {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.loginUserContent {
+    margin-top: 36px;
+    overflow: hidden;
+    width: 250px;
+}
+.propertyInfo {
+    border-right: 3px solid #FFFFFF;
+    float: left;
+    height: 40px;
+    margin: 20px 2px 10px;
+    text-align: center;
+    width: 87px;
+}
+.loginUserProperty {
+    background-color: #F0F2F5;
+    border-radius: 5px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 375px;
+}
+.propertyInfoArticle {
+    border-right: 0 solid;
+}
+
+.index_tab .active {
+    border-bottom: 2px solid #ED5565;
+    color: #ED5565;
+}
+.index_tab a {
+    border-bottom: 2px solid #CCCCCC;
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 196px;
+}
+.article_list {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 2px solid #E3E4E8;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 30px 15px 25px;
+    width: 550px;
+}
+.article_list .user_info {
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    width: 72px;
+}
+.article_list .user_ident {
+    background: url("../images/bg/daren_bg.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 7px;
+    padding-left: 20px;
+    width: 52px;
+}
+.article_list .user_name {
+    font-size: 14px;
+    margin-top: 7px;
+    width: 72px;
+}
+.article_list .user_avatar {
+    border: 5px solid #CCCCCC;
+    border-radius: 50%;
+    height: 62px;
+    overflow: hidden;
+    width: 62px;
+}
+.article_list .article_info {
+    float: right;
+    height: 240px;
+    overflow: hidden;
+    width: 440px;
+}
+.article_list .article_title {
+    font-size: 18px;
+}
+.article_list .article_tag {
+    color: #ED5565;
+}
+.article_list .article_desc {
+    line-height: 20px;
+    margin-top: 20px;
+}
+.article_list .article_pic {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.article_list .article_pic img {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.article_image {
+    background: none repeat scroll 0 0 #EEEEEE;
+    float: left;
+    height: 210px;
+    margin-right: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 210px;
+}
+.article_image_index {
+    background: none repeat scroll 0 0 #EEEEEE;
+    float: left;
+    height: 140px;
+    margin-right: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+    width: 140px;
+}
+.user_avatar_72 {
+    border: 5px solid #CCCCCC;
+    border-radius: 50%;
+    height: 62px;
+    overflow: hidden;
+    width: 62px;
+}
+
+.fun_active_list p {
+    cursor: pointer;
+    display: inline;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+}
+.num {
+    float: left;
+    height: 17px;
+    margin-right: 2px;
+    width: 17px;
+}
+.daren_list {
+    background-color: #FFFFFF;
+    float: left;
+    height: 170px;
+    margin-right: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 280px;
+}
+.daren_list .user_info {
+    height: 120px;
+    width: 100%;
+}
+.daren_list .user_avatar {
+    border: 5px solid #CCCCCC;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    height: 100px;
+    margin-left: 35px;
+    overflow: hidden;
+    width: 100px;
+}
+.daren_list .user_desc {
+    background-color: #E6E6E6;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.daren_list .user_ident {
+    background: url("../images/bg/daren_bg.gif") no-repeat;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    width: 52px;
+}
+.topic_list {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 2px solid #CCCCCC;
+    display: inline;
+    float: left;
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 280px;
+}
+.topic_list .topic_title {
+    color: #ED5565;
+    font-size: 18px;
+    height: 25px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.topic_list .topic_desc {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+.topic_list .topic_follow {
+    border-top: 1px solid #E6E6E6;
+}
+.topic_follow .flow_1 {
+    border-right: 1px solid #E6E6E6;
+    color: #C0C0C0;
+    height: 60px;
+    overflow: hidden;
+    padding-left: 20px;
+    width: 55px;
+}
+.topic_follow .flow_1 span {
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    padding-top: 12px;
+    width: 75px;
+}
+.topic_follow .flow_2 {
+    color: #C0C0C0;
+    height: 60px;
+    overflow: hidden;
+    padding-left: 20px;
+    width: 55px;
+}
+.topic_follow .flow_2 span {
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    padding-top: 12px;
+    width: 75px;
+}
+.topic_follow .flow_3 {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+

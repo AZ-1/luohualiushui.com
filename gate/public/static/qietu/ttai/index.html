@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>T台妆容走下神坛-解析2014早春7大接地气妆容_嗨淘星妆扮</title>
+	<style>
+	*{margin:0;padding:0;}
+	ul{list-style:none;}
+	.slide-wrap{width:1000px;margin:0 auto;}
+	.slide-box{width:1000px;height:700px;overflow:hidden;position:relative;margin:0 auto;}
+	.main-slide{position:absolute;top:0;left:0;}
+	.main-slide li{float:left;height:700px;overflow:hidden;}	
+	.btnBg{position:absolute;width:100%;height:20px;left:0;bottom:0;background:#000;}
+	.btn{position:absolute;width:600px;height:10px;right:10px;bottom:10px;text-align:right;}
+	.btn span{display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+	.btn span.on{background:#fff;}
+	.preNext{width:45px;height:100px;position:absolute;top:260px;background:url(images/sprite.png) no-repeat 0 0;cursor:pointer;}
+	.pre{left:0;}
+	.next{right:0;background-position:right top;}
+	</style>
+</head>
+<body>
+<div class="slide-wrap">
+	<div class="slide-box J_wrapSlide">
+		<ul class="main-slide J_mainSlide">			
+			<li><img src="images/0.jpg" /></li>
+			<li><img src="images/1.jpg" /></li>
+			<li><img src="images/2.jpg" /></li>
+			<li><img src="images/3.jpg" /></li>
+			<li><img src="images/4.jpg" /></li>
+			<li><img src="images/5.jpg" /></li>
+			<li><img src="images/6.jpg" /></li>
+			<li><img src="images/7.jpg" /></li>
+		</ul>
+	</div>
+</div>
+</body>	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		var sWidth = $(".J_wrapSlide").width();
+		var len = $(".J_mainSlide li").length;
+		var index = 0;
+		var picTimer;
+		var speed=6000;
+		var btn = "<div class='btnBg'></div><div class='btn'>";
+		for(var i=0; i < len; i++) {
+			btn += "<span></span>";
+		}
+		btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+		$(".J_wrapSlide").append(btn);
+		$(".J_wrapSlide .btnBg").css("opacity",0.5);
+		$(".J_wrapSlide .btn span").css("opacity",0.4).mouseover(function() {
+			index = $(".J_wrapSlide .btn span").index(this);
+			showPics(index);
+		}).eq(0).trigger("mouseover");
+		$(".J_wrapSlide .preNext").css("opacity",0.2).hover(function() {
+			$(this).stop(true,false).animate({"opacity":"0.5"},300);
+		},function() {
+			$(this).stop(true,false).animate({"opacity":"0.2"},300);
+		});
+		$(".J_wrapSlide .pre").click(function() {
+			index -= 1;
+			if(index == -1) {index = len - 1;}
+			showPics(index);
+		});
+		$(".J_wrapSlide .next").click(function() {
+			index += 1;
+			if(index == len) {index = 0;}
+			showPics(index);
+		});
+		$(".J_wrapSlide ul").css("width",sWidth * (len));
+		$(".J_wrapSlide").hover(function() {
+			clearInterval(picTimer);
+		},function() {
+			picTimer = setInterval(function() {
+				showPics(index);
+				index++;
+				if(index == len) {index = 0;}
+			},speed);
+		}).trigger("mouseleave");
+		function showPics(index) {
+			var nowLeft = -index*sWidth;
+			$(".J_wrapSlide ul").stop(true,false).animate({"left":nowLeft},300);
+			$(".J_wrapSlide .btn span").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300);
+		}
+	});
+</script>
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript" >
+var jiathis_config={
+	data_track_clickback:true,
+	summary:"",
+	appkey:{
+		"tsina":"3582005352"
+	},
+	showClose:true,
+	shortUrl:false,
+	hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?uid=1866548&btn=r4.gif&move=0" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+</html>

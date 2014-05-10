@@ -1,0 +1,34 @@
+.topicTopAll{background-color:#d8ebf5;width:100%;height:200px;z-index:40000;}
+.topicTopContent{width:1180px;margin:0 auto;height:100%;}
+.topicImg{float:left;margin-top:20px;border:solid 5px #ccc;margin-left:120px;}
+.topicImg img{width:280px;height:160px;}
+.topicInfo{width:400px;overflow:hidden;float:left;margin-left:30px;}
+.topicInfoTitle{float:left;color:#ed5565;background-color:#fff;height:23px;padding-left:10px;padding-right:10px;padding-top:7px;margin-top:30px;}
+.topicInfoContent{float:left;margin-top:20px;background-color:#fff;height:23px;padding-left:10px;padding-right:10px;padding-top:7px;}
+.topicInfoCount{float:left;height:25px;background-color:#fff;margin-top:20px;overflow:hidden;}
+.topicInfoArticle{width:55px;padding-top:5px;float:left;margin-left:10px;}
+.topLine{background:url(../images/bg/line.gif) no-repeat; height:13px;width:3px;float:left;margin-left:10px;margin-top:5px;}
+.topicInfoFans{padding-top:5px;margin-left:100px;padding-right:10px;}
+.topicNav{width:780px;height:30px;border-bottom:solid 3px #ccc;margin-top:35px;float:left;margin-left:60px;}
+.nav_a{float:left;width:130px;font-size:18px;line-height:30px;border-bottom:solid 3px #ccc;text-align:center;}
+.active{border-bottom:solid 3px #ed5565;color:#ed5565;} 
+
+.topicFlow{float:right;top:14px;}
+
+.comeTopic{display:none;}
+.personForward{display:none;}
+
+
+.topicRight{float:right;width:280px;overflow:hidden;}
+.topicRightTitleDaRen{font-size:30px;/*font-weight:bold;*/margin-top:35px;}
+.topicRightTitleDaRen a span{font-size:14px;color:#ccc;float:right;font-weight:400;margin-top:14px;}
+.topicPicMem{float:left; margin-top:10px;margin-bottom:10px;margin-right:5px;}
+.topicOther{width:330px;height:100px;margin-top:10px;margin-bottom:0px;}
+.topicOtherImg{float:left;}
+.topicOtherInfo{float:left;width:90px;overflow:hidden;margin-left:20px;}
+
+
+.topicLeft{width:890px;float:left;}
+
+.semicircleSmall{z-index:1000;background-color:#fff;position:relative;top:188px;left:-1257px;float:right;}
+.topSmallLine{height:65px;position:relative;top:208px;left:-1246px;float:right;}

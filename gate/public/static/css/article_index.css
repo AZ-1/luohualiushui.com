@@ -1,0 +1,65 @@
+.arti_item{padding:50px 80px 30px 40px;background:#fff;}
+.arti_item h3{font-size:30px;color:#ed5565;}
+.arti_time{margin-top:25px;}
+.arti_context{margin-top:50px;line-height:30px;text-align:left;font-size:14px;word-wrap:break-word;}
+.arti_context img{display:block;margin:10px 0px 10px 0px;}
+.topic_right_bar h3,h4{font-size:30px;}
+.topic_place{margin-top:30px;}
+.topic_place img{float:left;}
+.topic_place p{float:left;width:120px;padding-left:20px;}
+.topic_other{font-size:16px;margin-bottom:20px;}
+.topic_other p{margin-bottom:10px;margin-top:10px;}
+.topic_other span{color:#ed5565}
+.topic_other img{float:left;margin-right:20px;}
+.user_follows a{display:block;float:left;margin-top:30px;margin-right:40px;}
+.user_fans a{display:block;float:left;margin-right:5px;margin-top:20px;}
+.comment_item{height:230px;display:block;background:#ffffff;padding:20px 80px 30px 20px;}
+.comment_item p{float:left;height:30px;width:80px;line-height:35px;}
+.comment_item p span{font-size:15px;margin-left:25px;color:white;}
+.comment_title {background:#d5d5d5;}
+.comment_item .active{background:#c0c0c0;}
+.forward_title{background:#d5d5d5;}
+.forward_item .active{background:#c0c0c0;}
+.comment_item textarea{height:125px;width:738px;position:relative;top:-1px;border:solid 1px #cacaca;}
+.comment_item .send_mes {margin-top:10px;float:right;height:30px;width:80px;background:#cacaca;}
+.comment_item .to_login{margin-top:10px;float:right;height:30px;width:80px;background:#cacaca;}
+.comment_item .to_login span {margin-left:12px;}
+.comment_context {padding:0px 80px 20px 40px;background:#fff;}
+.comment_info {position:relative;overflow:hidden;border-bottom:1px solid #e0e0e0;height:auto!important;height:130px;}
+.comment_context .user_avatar_60{float:left;margin-right:15px;_margin:0 10 0 0;}
+.comment_context .comment_user_info{width:660px;float:left;margin:20px 0;}
+.comment_context .comment_user_info span{display:block;font-size:13px;}
+.comment_context .comment_user_info .reply_logo{background:url(/static/images/icon/reply_logo.png) no-repeat;height:14px;width:14px;float:right;margin:1px 5px 0 0;}
+.comment_context .comment_user_info .comment_user_name{float:left;}
+.comment_context .comment_user_info .comment_floor{float:right;}
+.comment_context .comment_user_info .forward_logo{float:left;margin-left:50px;color:#c0c0c0;}
+.comment_context .comment_user_info .comment_user_context {margin:15px 0;}
+.comment_user_context a {color:#3baedb;}
+.comment_context .comment_user_info .comment_forward{float:right;}
+.comment_forward a{color:#c0c0c0;}
+.comment_forward .active{color:#ee7481;}
+.comment_context .comment_user_info .comment_del{float:right;margin-right:15px;}
+.comment_del a{color:#c0c0c0;}
+.comment_context .comment_user_info .comment_add_time{display:inline;color:#c0c0c0;}
+.comment_item .comment_count{float:left;width:90px;}
+.comment_item .comment_count_left{float:left;color:rgb(102,102,102);font-size:12px;}
+
+.seminar{width:490px;margin:0 auto;background:#ffffff;}
+.seminar .comment_border{background:#c0c0c0;padding:20px 20px;}
+.seminar .comment_border .comment_item{padding:0;height:54px;border:0px solid #ffffff;border-radius:7px;overflow:hidden;}
+.seminar .comment_mes{width:380px;border:0px;height:54px;float:left;}
+.seminar .send_mes{height:54px;width:66px;float:right;margin:0px;background:#ed5565;}
+.seminar .send_mes span{margin-left:13px;line-height:54px;font-size:20px;}
+.seminar .comment_context{padding:0px;}
+.seminar .comment_context .comment_user_context{margin:15px 0 5px 0;}
+.seminar .comment_context .user_avatar_60{margin:20px 10px;}
+.seminar .comment_context .comment_user_info{width:400px;}
+.seminar .comment_context .comment_user_info .comment_add_time{float:left;margin-left:20px;display:block;}
+
+.upArticle{float:right;font-size:18px;margin-top:5px;margin-right:10px;color:red}
+
+.works{margin-top:20px;}
+.like{margin-top:10px;float:left;background:url(/static/images/like.gif) no-repeat;padding-left:35px;width:55px;height:25px;padding-top:6px;color:#fff;overflow:hidden;}
+.like div{float:right;height:20px;overflow:hidden;margin-right:5px;}
+.user_avatar_42{float:left;margin-left:10px;margin-bottom:10px;}
+.likeUser{width:633px;float:left;}

@@ -1,0 +1,18 @@
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p{margin:0;padding:0;font-weight:normal;}
+ul,ol,dl,li{list-style:none;}
+body{font:12px/1.5 arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+a{text-decoration:none;}
+img{border:0;vertical-align:middle;}
+.clearfix{zoom:1;}.clearfix:after{content:"";clear:both;display:block;}
+.content{width:100%;background:url(images/bg.jpg) center top no-repeat;}
+.content-wrap{width:1120px;margin:0 auto;}
+.nav-border{height:35px;background:#2e0b45;}
+.main-nav{margin-left:40px;height:35px;background:url(images/nav-ico.png) left top no-repeat #2e0b45;overflow:hidden;}
+.main-nav li{float:left;width:130px;height:35px;background:url(images/nav-ico.png) right top no-repeat;}
+.main-nav li.current{background:url(images/list-hover-ico.png) 10px center no-repeat #190327;}
+.main-nav li a{display:block;height:35px;text-align:center;font:16px/35px 'microsoft yahei',\5b8b\4f53;color:#9c98a7;}
+.tab-content{height:638px;overflow:hidden;}
+.tab-content li{margin:10px;}
+.tab-content li .video li{width:190px;float:left;margin-right:20px;}
+

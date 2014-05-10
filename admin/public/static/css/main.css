@@ -1,0 +1,28 @@
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset,table,th,td,map{margin:0;padding:0;}
+html,* html body{background-image:url("@pic_url/page_bg.png") repeat scroll 0 0 #f9f9f9;}
+ul,ol,dl,li{list-style:none;}
+h3{_zoom:1;}
+textarea{resize:none;}
+fieldset,img{border:0;}
+legend{display:none;}
+a{color:#333;text-decoration:none;}
+a:focus{outline:none;}
+em{font-style:normal;}
+html{_overflow-x:hidden;}
+body{background:url("http://static.duobaohui.com/img/paper.jpg") #ffffff;color:#666;font-size:12px;font-family:Arial;}
+.header{width:100%;height:54px;background:url("http://static.duobaohui.com/img/admin/j_header_middle.png") repeat-x;}
+.header_top{margin:0 auto;padding:5px;}
+.nav{margin-left:100px}
+.header_top a{float:left; margin-left:15px;line-height:40px;color:#eee;}
+.content{width:940px;margin:0 auto;background:#FBFBFB;border:solid 1px #D5D5D5;border-radius:6px; margin-top:10px;padding:10px;overflow:hidden;}
+.content h2{background:url("http://static.duobaohui.com/img/admin/bg-content-box.png") repeat-x; height:47px;padding-left:1%;border-radius:5px;line-height:47px;border:1px solid #CFCACA;width:99%;}
+.content h3{background:url("http://static.duobaohui.com/img/admin/bg-content-box.png") repeat-x; height:27px;padding-left:1%;border-radius:5px;line-height:27px;border:1px solid #CFCACA;width:99%;}
+.f14{font-size:14px;}
+.footer{width:100%;height:60px;background:#FAF7F7;border-top:1px solid #CFCACA;box-shadow:0 1px white inset,0 1px 3px rgba(34, 25, 25, 0.4);text-align:center;margin-top:10px;padding-top:20px;}
+.seoNav{padding:20px;overflow:hidden;}
+.seoNav a{float:left;margin-right:20px;}
+.hide,.none_f{display:none;float:left;}
+.clear_f{clear:both;}
+.article_zw , .article_bt{font-size:18px;}
+
+

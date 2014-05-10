@@ -1,0 +1,78 @@
+li{ list-style:none;}
+img{ border:none 0px;}
+.centerBoxContain{font-size:12px;}
+.centerBox{ width:1260px; margin:0 auto;float:left;font-size:14px; font-family:"微软雅黑";}
+.nav0 a{ color:#333333; font-size:18px;}
+.centerLine{ width:1px; height:485px; background-image:url(images/dot.png); background-repeat:repeat-y; float:left; margin-top:56px;}
+
+
+
+.leftNav{ margin-left:60px; margin-top:38px;height:500px;line-height:50px; width:101px;float:left;border-right:1px dotted gray;}
+.leftNav a{ color:#666666;}
+
+.boundBox{ width:304px; float:left; margin-left:48px;}
+.boundTop{ padding-top:60px; color:#999999;}
+.boundSina{ margin-top:33px;}
+.sinaPic{  float:left; background-image:url(images/bound_sina.png); background-repeat:no-repeat; background-position:left; width:54px; height:50px; margin-right:16px;}
+.sinaPic a{ color:#666666;}
+.sinaRed{color:#ed5565; font-size:18px; font-weight:bold;}
+.sinaYes{color:#333333; font-family:"宋体"; margin-right:20px;}
+.sinaText a{ line-height:35px;}
+.boundTen{ margin-top:20px;}
+.tenPic{  float:left; background-image:url(images/bound_ten.png); background-repeat:no-repeat; background-position:left; width:54px; height:50px; margin-right:16px;}
+.tenRed{color:#ed5565; }
+.tenSub{ width:90px; height:30px; background-color:#3bafda;color:#FFF; border:none 0; border-radius:2px;}
+.tenText a{ line-height:35px;}
+.boundQQ{ margin-top:20px;}
+.QQPic{  float:left; background-image:url(images/bound_QQ.png); background-repeat:no-repeat; background-position:left; width:54px; height:50px; margin-right:16px;}
+.weiboPic{  float:left; background-image:url(images/bound_weibo.png); background-repeat:no-repeat; background-position:left; width:54px; height:50px; margin-right:16px;}
+.QQRed{color:#ed5565; }
+.QQSub{ width:90px; height:30px; background-color:#3bafda;color:#FFF; border:none 0; border-radius:2px;}
+.QQText a{ line-height:35px;}
+.boundRightSave{ width:80px; height:30px; background-color:#d1d4da; border-radius:3px;color:#FFF; border:none 0; margin-top:488px; margin-left:143px;}
+
+
+.leftNav{ margin-left:60px; margin-top:38px; line-height:50px; width:101px;float:left;}
+.leftNav a{ color:#666666;}
+
+.chooseBox{position:relative; width:320px; float:left; margin-left:50px;}
+.choose{ height:340px; background-color:#f4f4f4; margin-top:56px; }
+.choose a{ text-align:center; display:block; margin:0 auto; font-size:12px; color:#999999;padding-top:60px;}
+.chooseFile{ width:100px; height:40px; border-radius:3px; background-color:#3bafda; color:#FFF; border:none 0; margin-top:20px;}
+.pictureBox{ width:256px; float:left; padding-left:33px;}
+.picture{ margin-top:55px;overflow:hidden;}
+.picture a{ font-size:12px; color:#999999; line-height:24px;}
+.blackText a{ color:#000;}
+.picture01{ margin-top:17px;}
+.girl01{margin-left:68px;}
+.girl02{margin-left:10px;}
+.girl03{margin-left:20px;}
+.picture02{ float:left;margin-top:27px;}
+.picture03{ float:right; margin-top:47px; }
+.picture01 a{ margin:0 auto; display:block; text-align:center;}
+.pictureSave{ width:80px; height:30px; background-color:#d1d4da; color:#FFF; border:none 0; float:right; margin-top:45px; border-radius:3px;}
+
+
+.leftNav{ margin-left:60px; margin-top:38px; line-height:50px; width:101px;float:left;}
+.leftNav a{ color:#666666;}
+
+.rightInput{ margin-top:36px;}
+.rightInput a{ color:#999999;}
+.tdInput{width:240px; height:30px;border:#d8d8d8 solid 1px;background-color:#f7f7f7; color:#333333; line-height:30px;}
+.tdSave{ cursor:pointer;background:#ed5565;width:80px; height:30px;margin-left:362px;  border-radius:3px; color:#FFF; border:none 0;}
+
+
+
+.leftNav{ margin:38px 30px 0 200px;line-height:50px; width:101px;float:left;}
+.leftNav a{ color:#666666;}
+.nav1 a{ color:#ed5565;}
+.rightInput{margin:36px auto;}
+.rightInput a{color:#999999;}
+.tdInput{width:170px; height:30px; border:#d8d8d8 solid 1px;background-color:#f7f7f7;color:#666666;}
+.error_report{color:#f69;}
+.tdtextarea{width:402px; height:102px;border:#d8d8d8 solid 1px;background-color:#f7f7f7; color:#999999;}
+.tdSex{width:70px; height:30px;border:#d8d8d8 solid 1px;background-color:#f7f7f7;color:#333333; line-height:30px;}
+.tdSkin{width:120px; height:30px;border:#d8d8d8 solid 1px;background-color:#f7f7f7;color:#333333;line-height:30px;}
+.tdSave{width:80px; height:30px;margin-left:362px; background-color:#ed5565; border:none 0;margin-top:34px; color:#FFF;border-radius:2px;}
+.tdRight{ padding-left:25px;}
+.chooseBox .tdSave{position:relative;top:405px;left:300px;}

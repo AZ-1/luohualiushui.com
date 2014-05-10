@@ -1,0 +1,105 @@
+.daRenTop{margin-top:37px;background-color:#fff;overflow:hidden;}
+.daRenTopLeft{width:760px;height:270px;float:left;margin-right:41px;position:relative;}
+.daRenTopLeft img{width:760px;height:270px;}
+.daRenTopRight{float:left;width:375px;margin-top:20px;}
+.daRenRecruit{width:359px;height:42px;background-color:#d1d4da;text-align:center;border-radius:10px;padding-top:10px;font-size:24px;color:#666;}
+.daRenExclusiveContent{margin-top:28px;width:375px;overflow:hidden;}
+.daRenExclusiveTitle{font-size:18px;color:#ed5565;float:left;margin-right:15px;}
+.daRenExclusiveList{float:left;line-height:18px;}
+.daRenCalled{float:left;line-height:18px;width:240px;}
+.daRenCalledContent{margin-top:25px;clear:both;}
+.daRenNav{width:860px;margin-top:38px;border-bottom:solid 3px #ccc;height:40px;float:left;margin-bottom:15px;}
+.nav_a{float:left;width:100px;font-size:18px;line-height:30px;border-bottom:solid 3px #ccc;text-align:center;padding-bottom:10px;}
+.daRenNav .active{border-bottom:solid 3px #ed5565;color:#ed5565;}
+.navTitle{float:left;font-size:30px;font-weight:bold;border-bottom:solid 3px #ccc;line-height:30px;padding-bottom:10px;}
+.daRenMore{width:100px;color:#3bafda;font-size:20px;float:right;}
+.daRenRank{float:right;width:300px;}
+.daRenRankTitle{font-size:30px;font-weight:bold;float:left;margin-top:38px;margin-bottom:10px;}
+.daRenRankUser{width:300px;clear:both;margin-top:20px;height:90px;position:relative;}
+.daRenRankUser:hover{background-color:#e0e0e0}
+.daRenRankPic{float:left;margin-top:10px;}
+.daRenCorn{position:absolute;display:block;width:22px;height:22px;background:#ed5565;border-radius:50%;top:5px;z-index:100;text-align:center;padding:5px;font-size:12px;color:#fff;}
+.rankUserInfo{float:left;margin-left:10px;}
+.rankUserInfoFans{float:right;padding-right;10px;}
+.rankUserInfoTitle{padding-top:22px;float:left;width:200px;font-size:14px;}
+.rankUserInfoContent{float:left;width:200px;}
+.rankUserInfoImg{background:url(../images/bg/daren_bg.gif) no-repeat;}
+.rankUserInfoNum{font-size:24px;margin-top:2px;color:#ed5565;}
+
+
+
+.skinCare{width:835px;overflow:hidden;margin-left:30px;background:url(/static/images/bg/line.gif) repeat-y 37px 0px;}
+.daRenInfo{background-color:#fff;width:745px;overflow:hidden;margin-top:20px;}
+.triangle_one{position:relative;right:-5px;top:20px;}
+.skinPic{float:left;}
+.line{background:url(../images/bg/line.gif) no-repeat;width:2px;height:240px;position:relative;top:67px;left:-35px;float:left;}
+.daRenInfo{float:right;}
+.daRenInfoContent{width:365px;margin-top:20px;margin-left:30px;float:left;overflow:hidden;}
+.daRenImage{height:160px;overflow:hidden;}
+.daRenInfoName{font-size:14px;float:left;margin-right:10px;margin-top:5px;}
+.daRenInfoTitle{margin-top:20px;float:left;font-weight:bold;margin-left:0px;}
+.daRenInfoTitle span{color:#ed5565;}
+.daRenInfoView{clear:both;padding-top:10px;font-size:12px;line-height:20px;}
+.daRenInfoViewImg{margin-bottom:20px;float:right;margin-right:10px;margin-top:25px;width:160px;}
+.skinTriangle{background:url(../images/bg/triangle_one.gif) no-repeat;width:10px;height:10px;position:relative;top:30px;left:80px;}
+
+
+.makeUp_a{width:120px;}
+.makeUp{width:100%;}
+.makeUpLine{left:-165px;top:140px;height:280px;}
+.makeUpInfo{background-color:#fff; width:420px;position:relative;top:-12px;left:-51px;}
+.makeUpInfoTitle{margin-top:0px;}
+.makeUpTriangle{left:79px;top:18px;}
+.makeUpAll{width:560px;float:left;}
+.makeUpInfoName{width:75px;overflow:hidden}
+.user_info{background-color:#f5f5f5;height:140px;width: 75px;text-align: center;padding: 0 20px 0 0;float:left}
+
+.nailInfo{width:355px;float:left;height:400px;margin-left:10px;margin-right:10px;}
+.nailInfoContent{margin-left:20px;width:210px;float:left;height:80px;overflow:hidden}
+.nailMore{margin-left:20px;color:#3bafda;font-size:15px;position:relative;top:10px;}
+.nailPro{width:130px;overflow:hidden;margin-top:5px;}			
+.nailName{width:130px;overflow:hidden;margin-top:10px;}
+.nailImg{overflow:hidden;position:relative;top:23px;width:365px;height:250px;background-color:#fff;}
+.nailTitle{font-size:14px;margin-top:20px;margin-left:10px;}
+.nailTitle span{color:#ed5565;}
+.nailPic{float:left;margin-left:50px;}
+.nailTriangle{position:relative;left:62px;top:92px;background:url(../images/bg/triangle.gif) no-repeat;width:10px;height:20px;}
+.nailIdent{float:none}
+
+
+
+
+.recTitle{width:200px;}
+.rec{width:132px;height:83px;margin:10px 3px 10px 9px;}
+.recImg{width:100%;overflow:hidden;position:relative;top:-10px;}
+.recOne{margin-bottom:10px;margin-right:10px;margin-top:10px;margin-left:0px;}
+
+.adType1{bottom:20px;right:50px;position:absolute;z-index:300;}
+.adType1 a{background:#666;-webkit-border-radius:4px;border-radius:4px;cursor:pointer;display:inline-block;margin-right:6px;height:10px;width:10px;}
+.adType1 a.current{background:#FFF;}
+.boxImg{overflow:hidden;}
+.boxImg{width:760px;height:270px;position:absolute;top:0;z-index:10;}
+.ar_cata_par{width:100%;height:50px;border-bottom:solid 2px #ed5565;font-size:24px;color:#333;line-height:50px;}
+.ar_cata_par a{float:left;display:block;padding:0 20px 0 20px;margin-right:20px;color:#333;}
+.ar_cata_par a:hover{background:#ed5565;color:#fff;}
+.ar_cata_par .active{background:#ed5565;color:#fff;}
+.topic_list{width:280px;background:#fff;border-bottom:solid 2px #ccc;margin-top:20px;float:left;margin-right:20px;display:inline;overflow:hidden;}
+.topic_list .topic_title{font-size:18px;color:#ed5565;padding-left:15px;height:25px;padding-top:15px;}
+.topic_list .topic_desc{padding-left:15px;height:40px;line-height:40px;}
+.topic_list .topic_follow{height:60px;border-top:solid 1px #e6e6e6;}
+.topic_follow p{float:left;}
+.topic_follow .flow_1{width:55px;border-right:solid 1px #e6e6e6;color:#c0c0c0;overflow:hidden;height:60px;padding-left:20px;}
+.topic_follow .flow_1 span{display:block;font-size:16px;width:75px;padding-top:12px;color:#333;}
+.topic_follow .flow_2{width:55px;overflow:hidden;height:60px;;color:#c0c0c0;padding-left:20px;}
+.topic_follow .flow_2 span{display:block;font-size:16px;width:75px;padding-top:12px;color:#333;}
+.topic_follow .flow_3{padding-top:12px;padding-left:30px;}
+
+.daren_user_info{height:130px;padding:20px 20px 10px 20px}
+.daren_user_avatar{float:left;}
+.daren_user_panel{float:left;padding-left:20px;padding-top:10px;}
+.daren_user_desc{padding-top:10px;overflow:hidden;}
+.daren_hot_user_list{width:260px;height:70px;float:left;margin-right:20px;background:#e0e0e0;margin-top:20px;padding:10px;display:inline;overflow:hidden}
+.daren_hot_title{font-size:30px;color:#666;margin-top:40px;}
+.daren_hot_user_name{padding-right:10px;}
+
+.daRenLeft{float:left;}

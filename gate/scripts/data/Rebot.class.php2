@@ -1,0 +1,153 @@
+<?php
+
+namespace Gate\Scripts\Data;
+
+use Gate\Package\Article\Like;
+use Gate\Package\Article\Comment;
+use Gate\Package\Activity\Vote;
+use Gate\Package\Helper\DBUserProfileHelper;
+use Gate\Package\Helper\DBLikeHelper;
+use Gate\Package\Helper\DBTopicArticleHelper;
+use Gate\Package\Helper\DBCommentHelper;
+use Gate\Package\User\Register;
+use Gate\Package\User\Fans;
+
+class Rebot extends \Gate\Libs\Scripts
+{
+
+	var $maxNumber = 30;
+	public function run()
+	{
+		date_default_timezone_set('PRC');
+		
+		$this->getRunLinkFunc();
+	}
+
+    
+	//增加假用户
+	public function getJiayonghuData()
+	{
+		return DBUserProfileHelper::getConn()->from('dolphin_user_profile')->field('nickname,avatar_c')->where('user_id>5 AND avatar_c LIKE "avatar_c%"', array())->limit(300)->fetchArrAll();
+	}
+
+	public function writeLog($content = '')
+	{
+		$file = fopen('robot.txt', 'a');
+		if($file)
+		{
+			fwrite($file, date('Y-m-d H:i:s', time()).'：'.$content."\r\n");
+			fclose($file);
+		}
+	}
+
+	public function getRunLinkFunc()
+	{
+		$data['userIdList'] = DBUserProfileHelper::getConn()->field('user_id')->where('password="ghost"', array())->order('user_id desc')->limit(20)->fetchCol();
+		$timeInfo = $this->timeFunc(time());
+
+		//喜欢的数据
+		$likeUserIds = DBLikeHelper::getConn()->field('user_id')->where('user_id in(:id)', array('id'=>$data['userIdList']))->fetchCol();
+		$data['userIdList'] = array_diff($data['userIdList'], $likeUserIds);
+
+		$data['userIdList'] = array_values($data['userIdList']);
+		shuffle($data['userIdList']);
+
+		$data['articleIdList'] = DBTopicArticleHelper::getConn()->field('article_id')->where('topic_id=34 OR topic_id=35', array())->order('article_id desc')->fetchCol();
+
+		//评论的数据
+		$data['commentCon'] = DBCommentHelper::getConn()->from('beauty_tmp_comment')->order('id DESC')->limit($timeInfo['userNumber'])->fetchArrAll();
+		$data['articleUserId'] = DBTopicArticleHelper::getConn()->field('user_id')->where('topic_id=34 OR topic_id=35', array())->order('article_id desc')->fetchCol();
+
+		//投票的数据
+		$data['topicId'] = DBTopicArticleHelper::getConn()->field('topic_id')->where('topic_id=34 OR topic_id=35', array())->order('article_id desc')->fetchCol();
+
+		$this->runDbUpdate($data, $timeInfo);
+	}
+
+
+	public function runDbUpdate($data, $timeInfo)
+	{
+		extract($data);
+		//循环喜欢操作
+		for($i=0; $i<$timeInfo['userNumber']['likeNum']; $i++)                                                                                                       
+		{
+			$likeId = Like::getInstance()->addLike(intval($articleIdList[$i]), intval($userIdList[$i]));
+		    $this->writeLog('----执行喜欢--LikeId：'.$likeId);
+		}
+		
+		//循环执行评论操作
+		for($i=0; $i<$timeInfo['userNumber']['commentNum']; $i++)
+		{
+			$saveData['article_id'] = $articleIdList[$i];
+			$saveData['user_id'] = $userIdList[$i];
+			$saveData['content'] = $commentCon[$i]['comment'];
+			$saveData['pid'] = 0;
+			$saveData['reply_user_id'] = 0;
+			$saveData['article_user_id'] = $articleUserId[$i];
+			//$commentId = Comment::getInstance()->addComment($saveData);
+			//$this->writeLog('----执行评论--CommentId：'.$commentId);
+			//DBCommentHelper::getConn()->from('beauty_tmp_comment')->delete('id=:id', array('id'=>$commentCon[$i]['comment']));
+		}
+
+		//添加投票
+		for($i=0; $i<$timeInfo['userNumber']['voteNum']; $i++)
+		{
+			//$voteId = Vote::getInstance()->addVote($userIdList[$i],$articleIdList[$i],$topicId[$i]);
+			//$this->writeLog('----执行投票--NumberLeft：'.$voteId['id']);
+		}
+
+	}
+
+	/*
+	 *
+	 * 点赞时间段  // !其他操作的参数
+	 *
+	 */
+	function timeFunc($time)
+	{
+	    $time = date('H', $time);
+		$result = array();
+        
+		switch($time)
+		{
+			case ($time >= 8 && $time <= 10):
+				$userNum = array('likeNum'=>3, 'commentNum'=>2, 'voteNum'=>3);
+			    $result = $this->getResult('8-10', $userNum);
+		        break;
+
+			case ($time >= 11 && $time <= 14):
+				$userNum = array('likeNum'=>8, 'commentNum'=>2, 'voteNum'=>8;)
+				$result = $this->getResult('11-2', $userNum);
+				break;
+
+			case ($time >= 15 && $time <= 18):
+				$userNum = array('likeNum'=>7, 'commentNum'=>3, 'voteNum'=>9);
+				$result = $this->getResult('15-18', $userNum);
+				break;
+
+			case ($time >= 19 && $time <= 22):
+				$userNum = array('likeNum'=>9, 'commentNum'=>3, 'voteNum'=>12);
+			    $result = $this->getResult('19-22', $userNum);
+				break;
+
+			case ($time >= 23 && $time <= 24):
+				$userNum = array('likeNum'=>3, 'commentNum'=>0, 'voteNum'=>3);
+			     $result = $this->getResult('23-24', $userNum);
+				 break;
+		}
+
+		return $result;
+	}
+
+	public function getResult($section, $userNumber)
+	{
+		return array(
+			'timeSection'=>$section, 
+			'userNumber'=>array(
+				'likeNum'=>$userNumber['likeNum'], 
+				'commentNum'=>$userNumber['commentNum'],
+				'voteNum'=>$userNumber['voteNum']
+			);
+	}
+
+}
